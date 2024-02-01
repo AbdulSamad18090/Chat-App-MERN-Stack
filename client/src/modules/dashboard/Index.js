@@ -229,7 +229,7 @@ const Dashboard = () => {
                   <>
                     <div
                       key={index}
-                      className={`p-2 max-w-[60%] my-4 ${
+                      className={`p-2 md:max-w-[60%] max-w-[75%] my-4 ${
                         id === user.id
                           ? "bg-primary text-secondary rounded-bl-2xl rounded-br-[-10px] ml-auto"
                           : "bg-secondary rounded-br-2xl"
