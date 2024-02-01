@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const io = require("socket.io")(9090, {
   cors: {
-    origin: "*",
+    origin: "https://chat-app-mern-stack-omega.vercel.app",
   },
 });
 // Connect DB
